@@ -45,7 +45,7 @@ id:
       new_album:
           create: "Ciptakan"
           add_a_new_album: "Tambah album baru"
-      show: 
+      show:
           edit_album: "Ubah Album"
           albums: "album"
           updated: "diperbarui"

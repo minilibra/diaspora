@@ -60,9 +60,9 @@ module Diaspora
       @user.visible_posts(:public=>true).inject("") do |xml,curr|
         if curr.respond_to?(:to_activity)
           unless xml
-            curr.to_activity 
+            curr.to_activity
           else
-            xml + curr.to_activity 
+            xml + curr.to_activity
           end
         end
       end
